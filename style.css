@@ -1,0 +1,276 @@
+html {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    padding: 2rem;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: black;
+}
+
+
+
+.header {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-link {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: gray;
+}
+
+.product-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+
+
+.banner {
+    background-color: beige;
+    display: flex;
+}
+
+.banner-header {
+    font-size: 4rem
+}
+
+.banner-text {
+    max-width: 60%;
+}
+
+.banner-more-btn {
+    background-color: darkgreen;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 3rem;
+}
+
+.banner-photo {
+    min-width: 40%;
+}
+
+.problems {
+    background-color:rgb(155, 171, 120);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.problems h1 {
+    color: white;
+}
+
+.problems-cards {
+    max-width: 80rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.problems-card {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.problems-card-title {
+    display: flex;
+    align-items: center;
+}
+
+.problems-icon {
+    margin-right: 0.5rem
+}
+
+
+
+.how-it-works {
+    background-color: beige;
+    display: flex;
+}
+
+.how-it-works h2 {
+    color: darkgreen;
+}
+
+.hiw-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 1rem 0;
+}
+
+.number-circle {
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999rem;
+    margin: 0 1rem;
+}
+
+
+
+.advantages {
+    background-color: rgb(240, 225, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 80%;
+}
+
+.advantages-card {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+}
+
+.advantages-card-title {
+    display: flex;
+    align-items: center;
+}
+
+.advantages-icon {
+    margin-left: 0.5rem
+}
+
+
+
+.functions {
+    display: flex;
+}
+
+.functions-cards {
+    margin-left: 3rem;
+    max-width: 60%;
+}
+
+.functions-card {
+    margin: 1rem
+}
+
+.functions-card-title {
+    display: flex;
+    align-items: center;
+}
+
+.functions h4 {
+    color: darkgreen;
+    margin: 0;
+}
+
+.functions p {
+    margin-left: 4.5rem
+}
+
+
+
+.whats-included {
+    padding: 2rem 10rem;
+    background-color:rgb(155, 171, 120);
+}
+
+.whats-included h1 {
+    color: white;
+}
+
+.whats-included-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.whats-included-card {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.whats-included-card h2 {
+    color: darkgreen;
+}
+
+.whats-included-photo {
+    flex: 1;
+}
+
+.whats-included-main-card {
+    grid-row: span 2;
+}
+
+
+
+.reviews {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews h3 {
+    color: darkgreen;
+}
+
+.reviews-cards {
+    display: flex;
+}
+
+.reviews-card {
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.reviews-card-title {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    margin-right: 1rem;
+}
+
+
+
+.footer {
+    background-color: rgb(240, 225, 231);
+    padding: 2rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
